@@ -59,7 +59,9 @@ const Hero: React.FC = () => {
               Descubrir Sabor
             </a>
             <a 
-              href="#contacto"
+              href="https://script.google.com/macros/s/AKfycbztKPA6maNW6PlZTMN7XCneW4JL9QENI4QqEb7O9TtNplZE1AY0LwMZKmKRskUSSas5/exec"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-10 py-4 border border-white text-white font-semibold rounded-full hover:bg-white/10 transition-all duration-300 text-sm uppercase tracking-widest"
             >
               Comprar Ahora
