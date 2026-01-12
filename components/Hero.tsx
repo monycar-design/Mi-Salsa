@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { HERO_WEBP_URL } from '../constants';
+import { HERO_WEBP_URL } from '../constants.tsx';
 
 const Hero: React.FC = () => {
   const [scrollY, setScrollY] = useState(0);
