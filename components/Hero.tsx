@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { HERO_WEBP_URL } from '../constants.tsx';
+import { HERO_WEBP_URL } from '../constants';
 
 const Hero: React.FC = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -13,7 +13,6 @@ const Hero: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Parallax calculations
   const textOpacity = Math.max(0, 1 - scrollY / 600);
   const textScale = 1 + scrollY / 2000;
   const videoOpacity = Math.max(0.4, 1 - scrollY / 1200);
@@ -21,7 +20,6 @@ const Hero: React.FC = () => {
 
   return (
     <section className="relative h-[200vh] w-full bg-black overflow-hidden">
-      {/* Sticky Background */}
       <div className="sticky top-0 h-screen w-full flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center transition-transform duration-100 ease-out"
@@ -33,7 +31,6 @@ const Hero: React.FC = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black z-10" />
 
-        {/* Content */}
         <div 
           className="relative z-20 text-center px-6 transition-all duration-100"
           style={{ 
@@ -69,7 +66,6 @@ const Hero: React.FC = () => {
           </div>
         </div>
 
-        {/* Scroll Indicator */}
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 animate-bounce">
           <div className="w-[1px] h-16 bg-gradient-to-b from-transparent to-white/50" />
         </div>

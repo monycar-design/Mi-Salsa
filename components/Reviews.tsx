@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { REVIEWS } from '../constants.tsx';
+import { REVIEWS } from '../constants';
 
 const Reviews: React.FC = () => {
   return (

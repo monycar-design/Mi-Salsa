@@ -1,21 +1,20 @@
 
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar.tsx';
-import Hero from './components/Hero.tsx';
-import Loader from './components/Loader.tsx';
-import Product from './components/Product.tsx';
-import Ingredients from './components/Ingredients.tsx';
-import Nutrition from './components/Nutrition.tsx';
-import Reviews from './components/Reviews.tsx';
-import FAQ from './components/FAQ.tsx';
-import Contact from './components/Contact.tsx';
-import Footer from './components/Footer.tsx';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Loader from './components/Loader';
+import Product from './components/Product';
+import Ingredients from './components/Ingredients';
+import Nutrition from './components/Nutrition';
+import Reviews from './components/Reviews';
+import FAQ from './components/FAQ';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate loading assets
     const timer = setTimeout(() => {
       setLoading(false);
     }, 2500);
