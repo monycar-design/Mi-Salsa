@@ -17,3 +17,14 @@ export interface FaqItem {
   question: string;
   answer: string;
 }
+
+export interface Product {
+  id: string;
+  name: string;
+  weight: string;
+  image: string;
+  description: string;
+  longDescription: string;
+  price?: string;
+  tag?: string;
+}
