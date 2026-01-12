@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Review, Ingredient, FaqItem } from './types';
+import { Review, Ingredient, FaqItem } from './types.ts';
 
 export const HERO_WEBP_URL = "https://yextmecquggidmapmolk.supabase.co/storage/v1/object/sign/misalsaweb/ezgif.com-video-to-webp-converter.webp?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kMzU4Nzg3ZS0yYjdkLTQ5Y2UtYWFiYi04NTA1YTIxN2NmOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJtaXNhbHNhd2ViL2V6Z2lmLmNvbS12aWRlby10by13ZWJwLWNvbnZlcnRlci53ZWJwIiwiaWF0IjoxNzY4MDI0NjU1LCJleHAiOjE4NjI2MzI2NTV9.aJVTVWc-XlDPOnhDl4Tg4fIr9vGm1tf6G9aZIXH009Y";
 

@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { HERO_WEBP_URL } from '../constants';
+import { HERO_WEBP_URL } from '../constants.tsx';
 
 const Hero: React.FC = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
             transform: `scale(${textScale}) translateY(${scrollY * 0.2}px)`
           }}
         >
-          <h1 className="text-7xl md:text-9xl font-serif font-bold mb-4 tracking-tight">
+          <h1 className="text-7xl md:text-9xl font-serif font-bold mb-4 tracking-tight text-white">
             Mi Salsa
           </h1>
           <h2 className="text-xl md:text-2xl font-light tracking-[0.3em] uppercase mb-8 text-zinc-300">
